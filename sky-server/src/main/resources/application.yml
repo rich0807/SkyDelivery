@@ -37,3 +37,11 @@ sky:
     admin-ttl: 7200000
     # 设置前端传递过来的令牌名称
     admin-token-name: token
+
+
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5tJa6ie8ckENtgxeaZy9
+    access-key-secret: WWBQYDVvosPYl6yV4o3C74qpM2PpzO
+    bucket-name: hmleadnewsrich
+
