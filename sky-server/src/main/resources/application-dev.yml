@@ -13,10 +13,10 @@ sky:
 #    access-key-id: ${sky.alioss.access-key-id}
 #    access-key-secret: ${sky.alioss.access-key-secret}
 #    bucket-name: ${sky.alioss.bucket-name}
-    sky:
-      alioss:
-        endpoint: oss-cn-beijing.aliyuncs.com
-        access-key-id: LTAI5tJa6ie8ckENtgxeaZy9
-        access-key-secret: WWBQYDVvosPYl6yV4o3C74qpM2PpzO
-        bucket-name: hmleadnewsrich
+
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5tJa6ie8ckENtgxeaZy9
+    access-key-secret: WWBQYDVvosPYl6yV4o3C74qpM2PpzO
+    bucket-name: hmleadnewsrich
 
