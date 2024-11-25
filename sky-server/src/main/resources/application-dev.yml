@@ -19,4 +19,11 @@ sky:
     access-key-id: LTAI5tJa6ie8ckENtgxeaZy9
     access-key-secret: WWBQYDVvosPYl6yV4o3C74qpM2PpzO
     bucket-name: hmleadnewsrich
+  redis:
+    host: localhost
+    port: 6379
+    database: 10
+  wechat:
+    appid: wxb56d8f72a06d8f6f
+    secret: 2a7708749b253fff82da46298ce9151e
 
