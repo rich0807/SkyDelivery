@@ -2,6 +2,7 @@ package com.sky.controller.admin;
 
 import com.sky.dto.DishDTO;
 import com.sky.dto.DishPageQueryDTO;
+import com.sky.entity.Dish;
 import com.sky.mapper.DishMapper;
 import com.sky.result.PageResult;
 import com.sky.result.Result;
@@ -89,5 +90,6 @@ public Result Update(@RequestBody DishDTO dishDTO){
         dishService.updateWithFlavor(dishDTO);
         return Result.success();
     }
+
 
 }
