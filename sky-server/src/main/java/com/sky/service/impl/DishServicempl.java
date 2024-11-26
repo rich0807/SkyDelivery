@@ -196,4 +196,21 @@ Dish dish = Dish.builder().
         return dishVOList;
     }
 
+    /**
+     * 批量起售停售
+     * @param status
+     * @param id
+     */
+    @Override
+    public void startOrStop(Integer status, Long id) {
+
+        Dish dish = dishMapper.getid(id);
+        dish.setStatus(status);
+        dishMapper.update(dish);
+
+
+
+
+    }
+
 }
