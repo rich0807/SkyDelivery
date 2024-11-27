@@ -60,5 +60,8 @@ select * from dish where id = #{id}
         </where>
         order by create_time desc
     </select>
+    <select id="ById" resultType="com.sky.entity.Dish">
+        select * from dish  where id = #{id}
+    </select>
 
 </mapper>
